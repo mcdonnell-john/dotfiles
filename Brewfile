@@ -4,8 +4,11 @@ tap 'homebrew/bundle'
 tap 'puma/puma'
 
 brew 'ack'
+brew 'ant'
 brew 'coreutils'
 brew 'go'
+brew 'gpg-suite'
+brew 'groovy'
 brew 'jq'
 brew 'libcaca', args: ['with-imlib2']
 brew 'libgit2'
