@@ -1,4 +1,6 @@
 "*":
+  "asciidoc-preview":
+    scrollMode: false
   "atom-beautify":
     crystal:
       beautify_on_save: true
@@ -16,6 +18,9 @@
       beautify_on_save: true
     ruby:
       default_beautifier: "Ruby Beautify"
+  "atom-python-run":
+    f5Command: "python3 {file}"
+    f6Command: "python3 {file}"
   "autocomplete-modules":
     babelPluginModuleResolver: true
     webpack: true
@@ -67,6 +72,8 @@
       currentHeight: "24.11111111111111vh"
     panelDisplayMode: "closed"
     test: {}
+  "ide-python":
+    python: "python3"
   "linter-eslint":
     useGlobalEslint: true
   "linter-rubocop": {}
